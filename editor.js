@@ -276,6 +276,13 @@ document.addEventListener("keyup", function(event) {
         eraseCanvas();
         LoadLevel(generateSaveCode(letters,boxes,numbers,clues));
       }
+      if(event.key=="Backspace"){
+        if(selectedBox-1>-1){
+            letters[selectedBox-1]='0';
+            eraseCanvas();
+            LoadLevel(generateSaveCode(letters,boxes,numbers,clues));
+        }
+      }
     }
   }
 })

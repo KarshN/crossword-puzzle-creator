@@ -1,0 +1,29 @@
+.buttons{
+    color:aqua;
+    background: red;
+    font-family:'Times New Roman', Times, serif;
+    vertical-align:top;
+    width: 100px;
+    height:50px;
+    font-size: 25px;
+  }
+  body{
+    background:blue;
+  }
+  #largebutton{
+    text-align:right;
+    padding-top:50px;
+  }
+  #mediumbutton{
+    text-align:center;
+    padding-top:50px;
+  }
+  #smallbutton{
+    text-align:left;
+    padding-top:50px;
+  }
+  #custombutton{
+    text-align:center;
+    padding-top:0px;
+  }
+  

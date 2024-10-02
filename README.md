@@ -1,1 +1,1 @@
-https://github.com/KarshN/crossword-puzzle-creator/deployments/github-pages
+https://karshn.github.io/crossword-puzzle-creator/
